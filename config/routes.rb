@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'table/index'
+
   get 'welcome/index'
 
   resources :articles do
