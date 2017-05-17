@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'helloworld/index'
+
+  get 'helloworld/show'
+
   get 'welcome/index'
 
    resources :articles do
